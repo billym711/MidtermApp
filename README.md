@@ -1,14 +1,17 @@
-# Project 6: Notes App
-An Android app that lets the user create and manage tasks.
+# Midterm Project: Number Guessing App
+An Android app/game that generates a random number between 1 and 100, and tells the user if they guessed higher or lower.
 
 ## Functionality 
 
 The following **required** functionality is completed:
 
-* [ ] User can create new tasks
-* [ ] User can set a name and description
-* [ ] User can update already existing tasks
-* [ ] User can delete tasks
+* [ ] User can guess a number
+* [ ] App displays a toast indicating if the number was too big or too small
+* [ ] App plays a sound with each toast
+* [ ] User is taken back to the main menu when they guess the right number
+* [ ] User's name and score are displayed on the main menu
+* [ ] User can play again
+* [ ] Scores are stored in a database
 
 The following **extensions** are implemented:
 
@@ -18,13 +21,13 @@ The following **extensions** are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='Project6Demo.gif' title='Video Walkthrough' width='50%' alt='Video Walkthrough' />
+<img src='MidtermDemo.gif' title='Video Walkthrough' width='50%' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-I'm not sure why the dao was not updating properly in some scenarios, but I think the workarounds should have fixed the issues.
+I tried to store the scores in a database, but they wouldn't actually display for some reason.
 
 ## License
 
